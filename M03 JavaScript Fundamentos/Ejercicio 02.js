@@ -4,7 +4,8 @@
 function devolverString(string) {
    // Debe retornar un string.
    // Tu código:
-   return "Henry";
+   string = "Henry";
+   return string;
 }
 
 // ⛔️ "X" e "Y" son números.
@@ -12,7 +13,8 @@ function devolverString(string) {
 function suma(x, y) {
    // Retorna el resultado de su suma.
    // Tu código:
-   return x + y;
+   let n = x + y
+   return n;
 }
 
 function resta(x, y) {
@@ -36,7 +38,7 @@ function multiplica(x, y) {
 function obtenerResto(x, y) {
    // Obten el resto de la división de "x" entre "y".
    // Tu código:
-   return x%y;
+   return x % y;
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
